@@ -1,2 +1,0 @@
-<div class="card"><h2><?=htmlspecialchars($titulo)?></h2><?php include __DIR__.'/_form.php';?></div>
-<style>.grid-container{display:grid;grid-template-columns:repeat(6,1fr);gap:1rem;margin-bottom:1rem;}.grid-col-2{grid-column:span 2;}.grid-col-3{grid-column:span 3;}.grid-col-4{grid-column:span 4;}.grid-col-6{grid-column:span 6;}@media(max-width:768px){.grid-col-2,.grid-col-3,.grid-col-4,.grid-col-6{grid-column:span 6;}}</style>

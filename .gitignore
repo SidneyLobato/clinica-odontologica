@@ -1,0 +1,30 @@
+# Dependências e ambiente
+/vendor/
+.env
+.env.local
+
+# Configuração de banco (nunca commitar senha real)
+config/database.php
+
+# Uploads de usuários
+/uploads/*
+!/uploads/.gitkeep
+
+# Logs e cache
+*.log
+/logs/
+/cache/
+
+# IDEs e SO
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+desktop.ini
+
+# Dumps de banco com dados reais
+*.sql.gz
+backup_*.sql
+dump_*.sql
